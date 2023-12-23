@@ -1,0 +1,268 @@
+@media(min-width: 850px) {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container7 {
+    display: grid;
+    grid-template-rows: 55px 76px;
+    grid-template-columns: 50% 25% 25%;
+    padding: 10px;
+    background-color: white;
+    row-gap: 5px;
+}
+
+.container7 .one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #04233b;
+    text-align: left;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-left: 20px;
+}
+
+.container7 .one a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container7 .two {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #04233b;
+    text-align: left;
+    margin-left: -100px;
+    margin-top: -10px;
+
+}
+
+.container7 .two a {
+    color: white;
+    text-decoration: none;
+}
+
+.container7 .three {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #04233b;
+    text-align: right;
+    margin-right: -10px;
+    margin-top: -10px;
+    padding-right: 20px;
+}
+
+.container7 .three a {
+    color: white;
+    text-decoration: none;
+}
+
+.container7 .four {
+    grid-column: 1 / 2;
+    grid-row: 2/ 3;
+
+    text-align: left;
+    margin-left: -10px;
+    padding-left: 20px;
+   /* border-bottom: 1px solid rgb(230, 229, 229);*/
+    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.15);
+}
+.container7 .five #log{
+     
+    background-color:white;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 12px;
+    color: black;
+     border-radius: 5px;
+     transition: all .3s;
+    border: 1px solid;
+    cursor: pointer;
+    overflow: visible;
+    margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  box-sizing: border-box;
+  font-weight: 400;
+  text-align: left;
+  
+  
+
+}
+.container7 .five #sign{
+  background-color: #04233b;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 12px;
+  color: white;
+   border-radius: 5px;
+   transition: all .3s;
+  border: 1px solid;
+  cursor: pointer;
+  overflow: visible;
+  margin: 0;
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+box-sizing: border-box;
+font-weight: 400;
+text-align: left;
+
+}
+.container7 .five {
+    grid-column: 2 / 4;
+    grid-row: 2/ 3;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -10px;
+    padding-right: 20px;
+    margin-left: -10px;
+    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.15);
+}
+
+.container7 .five a {
+    color: black;
+    text-decoration: none;
+}
+
+.container7 .five a:hover {
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+}
+
+
+
+/**/
+.container2 .our-word {
+    color: #0a97b0;
+    font-weight: bold;
+
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    grid-template-rows: 100px 200px 300px ;
+    row-gap: 40px;
+    margin-top: 50px;
+}
+    
+.container2 #b{
+    margin-top: -15px;
+    
+}
+
+.container2 h1{
+    position: relative;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+  
+.container2 .one {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 100px;
+    margin-bottom: 0%;
+    
+}
+
+.container2 .two {
+    background-color: #f8f8f9;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 500px;
+    height: 225px;
+
+}
+
+.container2 .three {
+    background-color: #f8f8f9;
+    margin-left: -180px;
+    margin-top: 30px;
+    width: 500px;
+    height: 225px;
+}
+
+.container2 .four {
+    background-color: #f8f8f9;
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 500px;
+    height: 225px;
+}
+
+.container2 .five {
+    background-color: #f8f8f9;
+    margin-left: -180px;
+    margin-top: 60px;
+    width: 500px;
+    height: 225px;
+}
+
+
+
+.container2 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.container2 .p {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+.container2 .t {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+.container2 .s {
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 15px;
+}
+
+.container2 .r {
+    margin-top: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.container2 h3 {
+    margin-top: 30px;
+    margin-left: 90px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.container2 .tra{
+    margin-left: 20px;
+}
+.container2 .x {
+    margin-left: 120px;
+    margin-bottom: 120px;
+}
+
+* {
+    line-height: 1.5;
+    font-family :Arial, Helvetica, sans-serif;
+}
+
+.container2 .read {
+    text-decoration: none;
+    color: #04233b;
+    font-weight: 600;
+    cursor: pointer;
+}
+}

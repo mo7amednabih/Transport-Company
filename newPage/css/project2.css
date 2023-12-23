@@ -1,0 +1,206 @@
+@media(min-width: 850px) {
+.container6 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: #04233b;
+   color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 80px;
+}
+
+.container6 .one {
+   
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container6 .two {
+   
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.container6 .three {
+   
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.container6 .four {
+   
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.container6 .five {
+   
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 100px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+.container6 .six {
+    grid-column: 2/3;
+    grid-row: 2/5;
+    margin-left: 20px;
+
+    margin-right: -20px;
+}
+
+.container6 .set {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container6 .seven {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container6 .eight {
+    grid-column: 4/5;
+    grid-row: 2/4;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+   
+
+}
+
+.container6 .nine {
+   
+    margin-left: 100px;
+}
+.container6 .ten{
+    display: flex;
+    justify-content: center;
+}
+.container6 .eleven {
+   
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.container6 .twelve {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    padding-left:15px ;
+}
+
+.container6 .thirteen {
+   
+    background-color: #0a97b0;
+    width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.container6 .fourteen {
+   margin-left: 48px;
+    margin-top: -40px;
+    color: aliceblue;
+
+}
+
+.container6 .fifteen {
+    
+    grid-column: 3/4;
+    grid-row: 5/6;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    padding-left: 33px;
+}
+
+
+.container6 .sub {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.container6 .zer {
+    color: white;
+    text-decoration: none;
+
+}
+
+.container6 #in {
+    background-color: #04233b;
+    border-bottom: 1px solid white;
+    border-top: #04233b;
+    border-left: #04233b;
+    border-right: #04233b;
+    height: 30px;
+    width: 235px;
+}
+
+.container6 input::placeholder {
+    color: white;
+
+}
+
+.container6 input:focus {
+    border: 1px solid transparent;
+    /* Remove all borders when the input is focused */
+}
+
+.container6 .sub:hover {
+    color: rgb(46, 217, 223);
+}
+
+.container6 .zer:hover {
+    color: rgb(46, 217, 223);
+}
+
+.container6 .f {
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+
+}
+
+.container6 .i,
+.container6 .x,
+.container6 .l {
+    height: 30px;
+    width: 30px;
+}
+}

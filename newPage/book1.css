@@ -1,0 +1,124 @@
+@media(min-width: 850px) {
+    .container14{
+        display: grid;
+        grid-template-columns: 50% 40%;
+        grid-template-rows: 70px 380px;
+        margin-top: 50px;
+        
+
+    }
+    .container14 .one{
+        grid-column: 1/3;
+        grid-row: 1/2;
+       
+    }
+    .container14 .one h2{
+    padding-left: 80px;
+    }
+    
+
+    .container14 .two{
+       
+            grid-column: 1/2;
+            grid-row: 2/3;
+      
+    
+    }
+    .container14 .three{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    
+        text-align: right;
+    }
+    .container14 .continer{
+    
+        width: 500px;
+        height: 300px;
+        border: 2px  #04233b;
+        background-color:#0a97b0;
+        box-shadow: 10px 10px 20px  #04233b ,
+                -10px -10px 10px #04233b ; 
+      
+        border-radius: 10px ;
+        padding-top: 10px;
+        margin-left: 80px;
+    }
+    .container14 label{
+        padding-left: 20px;
+        color: white;
+    }
+    
+    .container14 #from{
+        width: 200px;
+        margin-left: 80px;
+        text-align: center
+    }
+    .container14 #to{
+        width: 200px;
+        margin-left: 100px;
+        text-align: center
+    }
+    .container14 #date{
+        width: 205px;
+        margin-left: 5px;
+        text-align: center
+    }
+    .container14 #time{
+        width: 205px;
+        margin-left: 32px;
+        text-align: center
+    }
+    .container14 .button{
+        
+        text-align: center
+        
+    }
+    .container14 #adds{
+      margin-top: 20px;
+      width: 200px;
+      height: 50px;
+      margin-left: 150px;
+      background-color: #04233b ;
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 12px 55px;
+      color: #ffffff;
+       border-radius: 5px;
+       transition: all .3s;
+      border: none;
+      cursor: pointer;
+      
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    box-sizing: border-box;
+    font-weight: 400;
+    }
+    
+    .container15 #table{
+    width: 1000px;
+    margin-left: 90px;
+    margin-top: -10px;
+    margin-bottom: 3px;
+    text-align: center;
+    border:2px solid #04233b;
+    box-shadow: 10px 10px 20px  #04233b ,
+                -10px -10px 10px #04233b ;
+}
+    .container15 #delete{
+    margin-left: 430px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px ;
+    height: 50px;
+    background-color: #04233b;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+    .container15  h2{
+    padding-left: 85px;
+    }
+
+}

@@ -1,0 +1,119 @@
+@media(min-width: 850px) {
+    .container12{
+        display: grid;
+        grid-template-columns: 50% 40% ;
+        grid-template-rows: 400px;
+        column-gap: 10px;
+        margin-top: 50px;
+
+    }
+    .container12 .one{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    
+        text-align: right;
+        padding-right: 40px;
+    }
+    .container12 .one h2{
+        padding-right: 100px;
+    }
+    
+
+    .container12 .two{
+       
+            grid-column: 2/3;
+            grid-row: 1/2;
+      
+            padding-left: 30px;
+    }
+    .container12 .two h2{
+        padding-left: 130px;
+    }
+    
+    .container12 .one img:hover{
+        box-shadow: 10px 10px 20px  #04233b ,
+                -10px -10px 10px rgb(247, 240, 232);
+    }
+    .container12 .two img:hover{
+        box-shadow: 10px 10px 20px  #04233b ,
+                -10px -10px 10px rgb(247, 240, 232);
+    }
+
+
+    /**/
+    .container13 .title {
+        font-family: sans-serif;
+        font-weight: 500;
+      }
+      
+      .container13  .subtitle {
+        font-size: 1.3em;
+        color: rgb(105, 99, 99);
+      }
+      
+      .container13  .pre {
+        font-size: 1.3em;
+      }
+      
+      .container13  .card {
+        display: grid;
+        grid-template-rows: 390px 100px;
+        border: 1px solid #04233b;
+        box-sizing: border-box;
+      }
+      .container13  .card--img {
+        width: 272px;
+        height: 390px;
+        background-color: transparent;
+      }
+      .container13  .card--btn {
+        text-decoration: none;
+        text-transform: uppercase;
+        background: transparent;
+        font-size: 12.8px;
+        font-weight: 800;
+        color: black;
+        padding: 5px 15px;
+        height: 108px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container13  .card:hover .card--img {
+        transform: scale(1, 1.1);
+      }
+      .container13  .card:hover .card--btn {
+        color: White;
+        background-color:#04233b ;
+      }
+      
+      .container13  .img {
+        width: 230px;
+        height: 320px;
+      }
+      
+    
+      
+      .container13   {
+        
+        padding: 50px;
+        display: none;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 50px 80px 500px;
+        margin: 0px;
+        height: 700px;
+        column-gap: 50px;
+        row-gap: 10px;
+      }
+      
+      .container13  #one {
+        grid-column: 1/5;
+      }
+      
+      .container13  #two {
+        grid-column: 1/5;
+      }
+      
+      
+
+}

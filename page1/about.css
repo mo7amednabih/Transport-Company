@@ -1,0 +1,88 @@
+@media(min-width: 850px) {
+
+
+/**/
+.container3{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 100px 144px 100px ;
+    column-gap: 35px;
+    row-gap: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.container3 .one{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+    display: flex;
+    align-items: flex-end;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.container3 .one span{
+    color: #0a97b0;
+}
+
+.container3 .two{
+    
+    grid-row: 1/4;
+    grid-column: 2/3;
+
+    position: relative;
+
+}
+.container3 .two .bottom{
+    background-color: #04233b;
+    width: 550px;
+    height: 210px;
+    margin-top: 100px;
+    margin-left: -25px;
+    position: absolute;
+}
+.container3 .two .top{
+    position: absolute;
+}
+.container3 .two img{
+    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 10px 10px 20px  #04233b ,
+    -10px -10px 10px #04233b;
+}
+.container3 .three{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+.container3 .three p{
+    font-family: 'Open Sans', sans-serif;
+}
+.container3 .four{
+    grid-row: 3/4;
+    grid-column: 1/2;
+
+}
+.container3 .four button{
+
+    cursor: pointer;
+  
+   
+  
+    background-color: #0a97b0;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+    font-size: 16px;
+    font-family: inherit;
+    box-sizing: border-box;
+    font-weight: 400;
+    width: 170px;
+    height: 45px;
+    text-align: center;
+  
+     
+  }
+}
